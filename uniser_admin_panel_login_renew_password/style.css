@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    text-underline-position: none;
+}
+
+#uniser2{
+    position: absolute;
+    width: 115px;
+    height: 64px;
+    margin-top: 64px;
+    margin-left: 48px;
+}
+#rectangle_top_right {
+    position:absolute;
+    top:0;
+    right:0;
+}
+#profile_daxil_olun{
+position: absolute;
+margin-top: -70px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #222222;
+}
+.login_section{
+    display: flex;
+    flex-direction: row;
+}
+#rectangle_bottom_left {
+    position:relative;
+    width: 585.9px;
+    height: 474.96px;
+    top: 150px;
+}
+.login_form{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.daxil_ol_btn{
+    width: 350px;
+    border-radius:100% ;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #rectangle_top_right {
+        display: none;
+    }
+    .login_form{
+        margin-top: 250px;
+    }
+    #rectangle_bottom_left {
+        display: none;
+    }
+    .login_form{
+        display: flex;
+        margin-left: 30px;
+    }
+
+}

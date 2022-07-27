@@ -26,7 +26,7 @@ a {
     position:relative;
     width: 585.9px;
     height: 474.96px;
-    top: 150px;
+    top: 243px;
 }
 .login_form{
     display: flex;
@@ -43,10 +43,6 @@ a {
     position: absolute;
     margin-top : -170px;
     text-align:center;
-}
-#circle_two{
-    background: #3A7B9B;
-    color: white;
 }
 .circle { 
     display: flex;
@@ -72,7 +68,7 @@ a {
    .circle:last-child::after{
     width: 0;
    }
-   .circle_2{
+   .circle_1 , .circle_2{
     background: #3A7B9B;
     color: white;
    }
@@ -105,6 +101,9 @@ a {
 }
 
 
+.form_label {
+        height: 25px;
+}
 @media only screen and (max-width: 1000px) {
 
     #rectangle_top_right {
