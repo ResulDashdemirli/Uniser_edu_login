@@ -78,11 +78,14 @@ a {
  margin-top: -88px;
 }
 
+/* geri ve novbeti buttonlari  baslayir*/
+
 .geri_novbeti{
     display:flex;
     justify-content: space-between;
 }
-.geri_btn {
+.geri_btn  , .novbeti_btn{
+    margin-top: 20px;
     display: flex;
     width: 150px;
     height: 38px;
@@ -90,19 +93,32 @@ a {
     align-items: center;
     border: 1px solid #2F89B6;
     border-radius: 0.375rem;
-    color: #2F89B6;
-    background: white;
+
+}
+.geri_btn{
+    background:white;
+    color:  #2F89B6;
 }
 .geri_btn:hover {
     background-color: #2F89B6;
     color: white;
-    transition:0.3s;
+}
+.novbeti_btn{
+    background-color: #2F89B6;
+    color: white;
+}
+.novbeti_btn:hover {
+    color: #2F89B6;
+    background: white;
+    transition:.3s;
 }
 .novbeti_btn {
     margin-left: 36px;
-    border-radius: 10px;
-     width: 150px;
+    
 }
+
+
+/* geri ve novbeti buttonlari  bitir*/
 
 
 .form_label {
