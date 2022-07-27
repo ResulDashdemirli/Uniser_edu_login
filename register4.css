@@ -26,7 +26,7 @@ a {
     position:relative;
     width: 585.9px;
     height: 474.96px;
-    top: 243px;
+    top: 150px;
 }
 .login_form{
     display: flex;
@@ -68,11 +68,10 @@ a {
    .circle:last-child::after{
     width: 0;
    }
-   .circle_1 , .circle_2{
+   .circle_1 , .circle_2 , .circle_3  , .circle_4{
     background: #3A7B9B;
     color: white;
    }
-/* register default */
 
 .register_form {
  margin-top: -88px;
@@ -96,18 +95,16 @@ a {
 .geri_btn:hover {
     background-color: #2F89B6;
     color: white;
-    transition:0.3s;
+    transition:.3s;
 }
 .novbeti_btn {
     margin-left: 36px;
     border-radius: 10px;
      width: 150px;
 }
+/* register default */
 
 
-.form_label {
-        height: 25px;
-}
 @media only screen and (max-width: 1000px) {
 
     #rectangle_top_right {

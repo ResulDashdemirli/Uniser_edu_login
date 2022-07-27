@@ -72,7 +72,6 @@ a {
     background: #3A7B9B;
     color: white;
    }
-/* register default */
 
 .register_form {
  margin-top: -88px;
@@ -83,9 +82,13 @@ a {
     justify-content: space-between;
 }
 .geri_btn {
+    display: flex;
     width: 150px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #2F89B6;
-    border-radius: 10px;
+    border-radius: 0.375rem;
     color: #2F89B6;
     background: white;
 }
@@ -99,6 +102,7 @@ a {
     border-radius: 10px;
      width: 150px;
 }
+/* register default */
 
 
 @media only screen and (max-width: 1000px) {
